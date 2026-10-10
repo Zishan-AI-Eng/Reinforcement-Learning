@@ -402,7 +402,7 @@ Happy learning!
 ## Quick Start
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Zishan-AI-Eng/Reinforcement-Learning.git>
 cd Reinforcement-Learning
 python -m venv .venv
 .\.venv\Scripts\activate

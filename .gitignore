@@ -1,0 +1,101 @@
+ # Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+RL_env/
+
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+pytestdebug.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Machine learning outputs and checkpoints
+checkpoints/
+models/
+model_checkpoints/
+saved_models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+logs/
+runs/
+tensorboard/
+wandb/
+mlruns/
+artifacts/
+
+# Generated data and local experiments
+data/raw/
+data/processed/
+outputs/
+results/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local configuration
+*.local
+*.secret
+*.key
+*.pem
+
+# Build and cache files
+.cache/
+*.log
+*.tmp
+*.temp
